@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Cnn App Running on firefox Browser">
+    <parameter name="url" value="http://www.cnn.com"/>
+        <test name="Home Page">
+            <classes>
+                <class name="news.Search"/>
+            </classes>
+        </test>
+
+
+</suite>
